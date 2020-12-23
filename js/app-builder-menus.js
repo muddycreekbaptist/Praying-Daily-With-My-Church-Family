@@ -28,8 +28,8 @@ function showBookMenu() {
 	var scrollTop = $(window).scrollTop();
 	
     popUp.style.top = rect.top + rect.height + scrollTop + "px";
-    popUp.style.left = "45%";
-    popUp.style.width = 170 + "px";
+    popUp.style.left = "12.5%";
+    popUp.style.width = 75 + "%";
     popUp.style.height = 400 + "px";
      
 	baseText = "";
@@ -60,8 +60,8 @@ function showChapterMenu(chs, hasIntro, baseRef) {
 	var scrollTop = $(window).scrollTop();
 	 
     popUp.style.top = rect.top + rect.height + scrollTop + "px";
-    popUp.style.left = "45%";
-    popUp.style.width = 200 + "px";
+    popUp.style.left = "12.5%";
+    popUp.style.width = 75 + "%";
     popUp.style.maxHeight = 400 + "px";
      
 	baseText = "";
